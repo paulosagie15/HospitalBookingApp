@@ -62,14 +62,17 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="start tex">
       <ul class="navbar-nav me-auto">
         <% if user_signed_in? %>
           <li class="nav-item active">
+
             <a class="btn btn-primary" href="contact" role="button">Contact Address</a>
           </li>
           <li class="nav-item">
         <a class="btn btn-primary" href="doctor" role="button">Doctor</a>
           </li>
+          </div>
           <li class="nav-item dropdown">
           <a href="#" class="avatar" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <%= image_tag "photo.png", class: "avatar", alt: "dropdown menu" %>

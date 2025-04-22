@@ -4,6 +4,7 @@ class BookappiontmentsController < ApplicationController
   # GET /bookappiontments or /bookappiontments.json
   def index
     @bookappiontments = Bookappiontment.all
+    
   end
 
   # GET /bookappiontments/1 or /bookappiontments/1.json
@@ -71,4 +72,3 @@ class BookappiontmentsController < ApplicationController
 
 
 end
-
